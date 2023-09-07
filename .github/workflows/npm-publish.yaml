@@ -3,6 +3,9 @@ on:
   release:
     types:
       - published
+  push:
+    branches:
+      - jcortejoso/npm-publish
 
 jobs:
   npm-publish:
